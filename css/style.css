@@ -1,0 +1,66 @@
+body{
+    background-color: #eaf4f4;
+}
+h1{
+    font-size: 70;
+    font-family: 'Lobster', cursive;
+    color: #9d8189;
+}
+h4{
+    font-family: 'Lobster', cursive;  
+    padding: 10px 8px;
+}
+.layer{
+    position: absolute;
+    
+    /* left:40px;
+    right: 40px;
+    bottom: 20px; */
+    width:70%;
+    left:15%;
+    bottom: 20px;
+}
+
+.light-container{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    background-color:rgba(0,0,0,0.7);
+    display:none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+}
+.light-item{
+    
+    position: relative;
+    width:40%;
+    height: 380px;
+    background-image: url(../image/work-1.jpg);
+    background-size: cover;
+}
+#close{
+    position: absolute;
+top:20px;
+right:20px;
+}
+#next{
+    position: absolute;
+    top:50%;
+    right:20px;
+}
+#prev{
+    position: absolute;
+    top:50%;
+    left:20px;
+}
+
+
+
+/* img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+} */
